@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>timeout</title>
+</head>
+<body>
+  <h5 id="sample"></h5>
+  <button type="button" onclick="stop()">stop</button>  
+</body>
+<script>
+    var time = setTimeout(mystyle,3000)
+    function mystyle (){
+        document.getElementById("sample").innerHTML= "happy diwali to meenal"
+    }
+    function stop(){
+        clearTimeout(time)
+    }
+</script>
+</html>

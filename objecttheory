@@ -1,0 +1,63 @@
+object syntax:
+
+{}
+
+basic syntax:     (first method)
+
+const demo= {
+    name: "priya"                key/ values  
+}
+log(demo.name)
+
+
+
+                  (second method)
+
+var sample= {
+    name: "priya"
+    marks: {
+        maths : 100      (object kulla another object)
+    }
+}
+log(sample.name)
+log(sample.marks.maths)
+
+
+                          (third method)
+   var demo = {
+    name: "value"                   (object kulla function )
+    myfun(){
+        log("hello")
+    }
+   }     
+   log(demo.myfun())       
+   
+   
+
+   <!-- let sample= {}                  (empty object)
+   sample.name= "karthi"
+   sample.age= "25"
+   log(sample) -->
+
+   let sample= {}
+   sample.myfun = function(){
+    log("hello")
+   }
+   log(sample.myfun());
+
+   <!-- ...................... -->
+
+
+   const students={
+    name: "priya",
+    age:20,
+    class:10,
+    marks:{
+        maths:100,
+        science:100
+    }
+   }
+log(student['marks']['maths']);
+log(student.marks.maths);
+
+

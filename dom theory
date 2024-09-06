@@ -1,0 +1,12 @@
+DOM - document object model
+Bom - browser object model
+
+*document four types*
+
+ * document.getelementByid()
+ * document.get element By tagName()
+ * document.get element By className()
+ * document.write
+
+
+ *browser 
